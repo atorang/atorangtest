@@ -46,6 +46,22 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
+        .team {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            justify-items: center;
+            margin-top: 1rem;
+        }
+        .team-member {
+            text-align: center;
+        }
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
         footer {
             text-align: center;
             padding: 1rem 0;
@@ -58,7 +74,7 @@
 <body>
 
 <header>
-    <h1>LEXOR </h1>
+    <h1>LEXOR Research Group</h1>
     <p>Laboratory of Experimental Oncology and Radiobiology at Amsterdam UMC</p>
 </header>
 
@@ -73,18 +89,44 @@
 <div class="container">
     <section id="about" class="card">
         <h2>About Us</h2>
-        <p>Welcome to the LEXOR.....</p>
+        <p>Welcome to the LEXOR lab at Amsterdam UMC. Our mission is ...</p>
     </section>
 
     <section id="team" class="card">
         <h2>Our Team</h2>
-        <p>Meet the dedicated team of researchers, scientists, and professionals driving our mission forward....</p>
-        <!-- Add team member profiles here -->
+        <p>Meet the dedicated team of researchers, scientists, and professionals driving our mission forward.</p>
+        <div class="team">
+            <div class="team-member">
+                <img src="team1.jpg" alt="Team Member 1">
+                <p>Jan Paul Medema</p>
+                <p>Principal Investigator</p>
+            </div>
+            <div class="team-member">
+                <img src="team2.jpg" alt="Team Member 2">
+                <p>name 2</p>
+                <p>Senior Researcher</p>
+            </div>
+            <div class="team-member">
+                <img src="team3.jpg" alt="Team Member 3">
+                <p>name 3</p>
+                <p>Postdoctoral Fellow</p>
+            </div>
+            <div class="team-member">
+                <img src="team4.jpg" alt="Team Member 4">
+                <p>name 4</p>
+                <p>Research Associate</p>
+            </div>
+            <div class="team-member">
+                <img src="team5.jpg" alt="Team Member 5">
+                <p>name 5</p>
+                <p>Data Scientist</p>
+            </div>
+        </div>
     </section>
 
     <section id="research" class="card">
         <h2>Our Research</h2>
-        <p>We focus on a wide range of topics, including biomedical research, clinical trials, and collaborative healthcare innovations.</p>
+        <p>We focus on ...</p>
     </section>
 
     <section id="publications" class="card">
@@ -95,7 +137,7 @@
 
     <section id="contact" class="card">
         <h2>Contact Us</h2>
-        <p>Have questions or want to collaborate? Reach out to us at <a href="mailto:lexor@amsterdamumc.nl">lexor@amsterdamumc.nl</a>.</p>
+        <p>Have questions or want to collaborate? Reach out to us at <a href="??@amsterdamumc.nl">??@amsterdamumc.nl</a>.</p>
     </section>
 </div>
 
